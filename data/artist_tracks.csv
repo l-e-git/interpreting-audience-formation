@@ -1,51 +1,490 @@
-artist,genre_group,artist_popularity,track_name,track_popularity,release_year
-Hania Rani,contemporary classical,60,Dreamy,59,2023
-Hania Rani,contemporary classical,60,Glass,57,2019
-Hania Rani,contemporary classical,60,Woven Song — piano reworks,54,2022
-Hania Rani,contemporary classical,60,Esja,53,2019
-Hania Rani,contemporary classical,60,Eden,53,2019
-Hania Rani,contemporary classical,60,F Major,52,2020
-Hania Rani,contemporary classical,60,Hawaii Oslo,51,2019
-Hania Rani,contemporary classical,60,Dancing with Ghosts,50,2023
-Hania Rani,contemporary classical,60,At Dawn,48,2022
-Hania Rani,contemporary classical,60,Malasana,48,2021
-Nils Frahm,contemporary classical,60,Late,59,2021
-Nils Frahm,contemporary classical,60,Ambre,57,2009
-Nils Frahm,contemporary classical,60,20:17,56,2016
-Nils Frahm,contemporary classical,60,Them,56,2015
-Nils Frahm,contemporary classical,60,Because This Must Be,56,2021
-Nils Frahm,contemporary classical,60,My Friend the Forest,54,2018
-Nils Frahm,contemporary classical,60,Says,53,2013
-Nils Frahm,contemporary classical,60,Some,52,2015
-Nils Frahm,contemporary classical,60,Re,51,2012
-Nils Frahm,contemporary classical,60,21:05,50,2016
-Nubya Garcia,jazz,40,Together Is A Beautiful Place To Be - Nala Sinephro Remix,43,2021
-Nubya Garcia,jazz,40,Dentro Ali,43,2025
-Nubya Garcia,jazz,40,Set It Free,37,2024
-Nubya Garcia,jazz,40,La cumbia me está llamando [Feat. La Perla] - Kaidi Tatham Remix,36,2021
-Nubya Garcia,jazz,40,The Message Continues,36,2020
-Nubya Garcia,jazz,40,Water's Path,34,2024
-Nubya Garcia,jazz,40,Dawn [ft. esperanza spalding],34,2024
-Nubya Garcia,jazz,40,Lost Kingdoms,33,2017
-Nubya Garcia,jazz,40,Once,30,2018
-Nubya Garcia,jazz,40,Triumphance,29,2024
-Mammal Hands,jazz,43,Being Here,48,2017
-Mammal Hands,jazz,43,Kandaiki,47,2014
-Mammal Hands,jazz,43,Alia's Abandon,41,2025
-Mammal Hands,jazz,43,Boreal Forest,40,2017
-Mammal Hands,jazz,43,Chaser,38,2020
-Mammal Hands,jazz,43,Quiet Fire,38,2016
-Mammal Hands,jazz,43,Refuge,38,2018
-Mammal Hands,jazz,43,Black Sails,38,2017
-Mammal Hands,jazz,43,In the Treetops,37,2016
-Mammal Hands,jazz,43,Wringer,35,2017
-Jordan Rakei,bridge,59,Ottolenghi,65,2019
-Jordan Rakei,bridge,59,What It Gave Me,63,2025
-Jordan Rakei,bridge,59,Borderline,56,2020
-Jordan Rakei,bridge,59,Shadows,55,2022
-Jordan Rakei,bridge,59,Midnight Mischief (Tom Misch Remix),55,2016
-Jordan Rakei,bridge,59,Family,50,2021
-Jordan Rakei,bridge,59,Trust,51,2024
-Jordan Rakei,bridge,59,Best Part - BBC Maida Vale Session,50,2020
-Jordan Rakei,bridge,59,Add the Bassline,50,2014
-Jordan Rakei,bridge,59,Celebrate,39,2025
+artist,genre_group,track_name,track_popularity,release_year
+Max Richter,classical,On the Nature of Daylight,70,2018
+Max Richter,classical,Spring 1 - 2012,66,2014
+Max Richter,classical,On the Nature of Daylight - Orchestral Version,60,2018
+Max Richter,classical,A Colour Field - Piano Version,60,2024
+Max Richter,classical,The Departure,61,2014
+Max Richter,classical,Vladimir's Blues,60,2018
+Max Richter,classical,Written on the Sky,60,2018
+Max Richter,classical,Dream 1 (before the wind blows it all away) - Pt. 8,58,2015
+Max Richter,classical,River (It's Coming On Christmas),58,2024
+Max Richter,classical,Dream 1 (before the wind blows it all away) - Pt. 1,58,2015
+Ólafur Arnalds,classical,Oceans,63,2020
+Ólafur Arnalds,classical,saman,62,2018
+Ólafur Arnalds,classical,Saudade (When We Are Born),62,2021
+Ólafur Arnalds,classical,Happiness Does Not Wait,60,2013
+Ólafur Arnalds,classical,We Contain Multitudes — piano reworks,59,2022
+Ólafur Arnalds,classical,Reminiscence,56,2015
+Ólafur Arnalds,classical,20:17,56,2016
+Ólafur Arnalds,classical,Fyrsta,56,2011
+Ólafur Arnalds,classical,Near Light,55,2011
+Ólafur Arnalds,classical,Doria - Island Songs VII,54,2016
+Nils Frahm,classical,Late,59,2021
+Nils Frahm,classical,Ambre,57,2009
+Nils Frahm,classical,20:17,56,2016
+Nils Frahm,classical,Them,56,2015
+Nils Frahm,classical,Because This Must Be,56,2021
+Nils Frahm,classical,My Friend the Forest,54,2018
+Nils Frahm,classical,Says,53,2013
+Nils Frahm,classical,Some,52,2015
+Nils Frahm,classical,Re,51,2012
+Nils Frahm,classical,21:05,51,2016
+Hania Rani,classical,Dreamy,59,2023
+Hania Rani,classical,Glass,57,2019
+Hania Rani,classical,Woven Song — piano reworks,54,2022
+Hania Rani,classical,Esja,53,2019
+Hania Rani,classical,Eden,53,2019
+Hania Rani,classical,F Major,52,2020
+Hania Rani,classical,Hawaii Oslo,51,2019
+Hania Rani,classical,Dancing with Ghosts,50,2023
+Hania Rani,classical,At Dawn,48,2022
+Hania Rani,classical,Malasana,48,2021
+Joep Beving,classical,Beving: Ala,65,2021
+Joep Beving,classical,Sleeping Lotus,62,2015
+Joep Beving,classical,The Gift,56,2017
+Joep Beving,classical,Ab Ovo,55,2017
+Joep Beving,classical,Losar,55,2021
+Joep Beving,classical,Midwayer,52,2015
+Joep Beving,classical,Little Waltz,52,2022
+Joep Beving,classical,Zoetrope,51,2015
+Joep Beving,classical,Etude,51,2015
+Joep Beving,classical,The Light She Brings,50,2015
+Ludovico Einaudi,classical,Experience,79,2013
+Ludovico Einaudi,classical,Adieux,74,2024
+Ludovico Einaudi,classical,Nuvole Bianche,74,2004
+Ludovico Einaudi,classical,Una Mattina,73,2004
+Ludovico Einaudi,classical,Wind Song,70,2022
+Ludovico Einaudi,classical,Primavera,66,2006
+Ludovico Einaudi,classical,Fly,64,2006
+Ludovico Einaudi,classical,Divenire,64,2006
+Ludovico Einaudi,classical,Rose Bay,58,2025
+Ludovico Einaudi,classical,Le Onde,60,1994
+Philip Glass,classical,"String Quartet No. 3 ""Mishima"": VI. Mishima / Closing",57,2010
+Philip Glass,classical,The Truman Show: Truman Sleeps - Short Version,51,2015
+Philip Glass,classical,An Unwelcome Friend (Arr. M. Riesman & N. Muhly for Solo Piano),54,2016
+Philip Glass,classical,Opening,52,2007
+Philip Glass,classical,Mad Rush: Part D (Bar 232 - Bar 273),46,2021
+Philip Glass,classical,Truman Sleeps,52,2009
+Philip Glass,classical,Glassworks: Opening,51,2017
+Philip Glass,classical,Orphée - Arr. for Piano duet / Act 1: III. La chambre d'Orphée,40,2024
+Philip Glass,classical,Tissue No. 7,49,2021
+Philip Glass,classical,Études: No. 6,22,2025
+Arvo Pärt,classical,Spiegel im spiegel,60,2010
+Arvo Pärt,classical,Spiegel im Spiegel (Version for Violin & Piano) - Version for Violin and Piano,50,1999
+Arvo Pärt,classical,Pärt: Spiegel im Spiegel,48,2021
+Arvo Pärt,classical,"7 Magnificat-Antiphons: No. 6, O König aller Völker",45,2025
+Arvo Pärt,classical,Für Alina - Extended Version,45,1999
+Arvo Pärt,classical,Pärt: Spiegel im Spiegel,38,1994
+Arvo Pärt,classical,Spiegel im Spiegel (Version for Cello & Piano) - Version for Cello and Piano,42,1999
+Arvo Pärt,classical,Christmas Lullaby,41,2012
+Arvo Pärt,classical,Pärt: Spiegel im Spiegel (Excerpt),32,2025
+Arvo Pärt,classical,Cantus in memoriam Benjamin Britten,36,2025
+John Adams,classical,Shaker Loops: A Final Shaking (Version for string orchestra),31,2004
+John Adams,classical,Short Ride in a Fast Machine,29,2004
+John Adams,classical,China Gates,29,2025
+John Adams,classical,China Gates,28,2003
+John Adams,classical,Hallelujah Junction,24,2004
+John Adams,classical,China Gates,23,2023
+John Adams,classical,China Gates,19,2020
+John Adams,classical,Short Ride in a Fast Machine,22,2017
+John Adams,classical,"Adams: Two Fanfares for Orchestra: No. 1, Tromba lontana",11,1994
+John Adams,classical,Short Ride in a Fast Machine,20,2019
+Michael Nyman,classical,The Heart Asks Pleasure First / The Promise - Edit,53,1993
+Michael Nyman,classical,The Heart Asks Pleasure First,53,1993
+Michael Nyman,classical,The Piano: The Heart Asks Pleasure First,50,2014
+Michael Nyman,classical,Big My Secret,48,1993
+Michael Nyman,classical,The Heart Asks Pleasure First,44,2000
+Michael Nyman,classical,Nyman: The Heart Asks Pleasure First,37,2020
+Michael Nyman,classical,The Diary of Anne Frank - Arr. Harle: If,37,2018
+Michael Nyman,classical,Fish Beach,35,2008
+Michael Nyman,classical,The Heart Asks Pleasure First,35,2007
+Michael Nyman,classical,The Piano: The Heart Asks Pleasure First,27,2025
+Caroline Shaw,classical,Plan & Elevation: V. The Beech Tree,46,2019
+Caroline Shaw,classical,Plan & Elevation: IV. The Orangery,39,2019
+Caroline Shaw,classical,and the swallow,38,2024
+Caroline Shaw,classical,Partita for 8 Singers: 3. Courante,37,2013
+Caroline Shaw,classical,Plan & Elevation: V. The Beech Tree,37,2022
+Caroline Shaw,classical,Plan & Elevation: I. The Ellipse,35,2019
+Caroline Shaw,classical,and the swallow,35,2020
+Caroline Shaw,classical,Ochre: I. Siderite,35,2024
+Caroline Shaw,classical,And the Swallow,32,2020
+Caroline Shaw,classical,Entr'acte,30,2019
+Bryce Dessner,classical,Saying Goodbye - Piano Solo,43,2021
+Bryce Dessner,classical,Dessner: Song for Octave,37,2020
+Bryce Dessner,classical,Towards the Forest,36,2025
+Bryce Dessner,classical,Mercury,34,2017
+Bryce Dessner,classical,A Good Person,32,2024
+Bryce Dessner,classical,Song for Octave,32,2024
+Bryce Dessner,classical,Neptune,31,2017
+Bryce Dessner,classical,Halley's Comet,31,2017
+Bryce Dessner,classical,Walls,31,2024
+Bryce Dessner,classical,Jupiter,27,2017
+Hauschka,classical,David Melrose Theme,35,2018
+Hauschka,classical,Dew and Spiderwebs,33,2019
+Hauschka,classical,Hike,33,2019
+Hauschka,classical,Ashes,32,2012
+Hauschka,classical,Stillness,29,2012
+Hauschka,classical,Krakow,28,2012
+Hauschka,classical,Curious,27,2019
+Hauschka,classical,Another Hike,26,2019
+Hauschka,classical,Morning,25,2005
+Hauschka,classical,Loved Ones,22,2023
+Anna Thorvaldsdottir,classical,In the Light of Air: III. Existence,27,2015
+Anna Thorvaldsdottir,classical,In the Light of Air: I. Luminance,16,2015
+Anna Thorvaldsdottir,classical,UBIQUE: Part V,15,2025
+Anna Thorvaldsdottir,classical,In the Light of Air: II. Serenity,14,2015
+Anna Thorvaldsdottir,classical,ARCHORA,12,2023
+Anna Thorvaldsdottir,classical,UBIQUE: Part I,12,2025
+Anna Thorvaldsdottir,classical,UBIQUE: Part II,9,2025
+Anna Thorvaldsdottir,classical,In the Light of Air: IV. Remembrance,8,2015
+Anna Thorvaldsdottir,classical,Ró,8,2022
+Anna Thorvaldsdottir,classical,UBIQUE: Part IV,7,2025
+Alexandra Whittingham,classical,Hymne à l'amour (Arr. Dyens for Guitar),54,2025
+Alexandra Whittingham,classical,O Holy Night (Arr. Lawson for Guitar & Cello),17,2025
+Alexandra Whittingham,classical,Estrellita (Arr. Abril & Barrueco for Guitar),49,2024
+Alexandra Whittingham,classical,"Lyric Pieces, Book 1, Op. 12: No. 1, Arietta (Arr. Lewin for Guitar)",49,2024
+Alexandra Whittingham,classical,La fille aux cheveux de lin (Arr. Bream for Guitar),41,2025
+Alexandra Whittingham,classical,Prélude (Arr. Lewin for 2 Guitars),33,2024
+Alexandra Whittingham,classical,Lettre Encore,24,2024
+Alexandra Whittingham,classical,"Comptine d'un autre été, l'après-midi (Arr. Lefvert for Guitar)",38,2025
+Alexandra Whittingham,classical,"Stars of Sand - From ""Trigun""",24,2024
+Alexandra Whittingham,classical,"By the Still Waters, Op. 114 (Arr. Lewin for 2 Guitars)",36,2024
+Sheku Kanneh-Mason,classical,Carnival of the Animals: The Swan,67,2020
+Sheku Kanneh-Mason,classical,"Come, Sweet Death, BWV 478 (Arr. for 5 Cellos)",55,2022
+Sheku Kanneh-Mason,classical,Gabriel's Message,53,2022
+Sheku Kanneh-Mason,classical,Carnival of the Animals: Aquarium,52,2020
+Sheku Kanneh-Mason,classical,Scarborough Fair (Arr. Parkin for Cello and Guitar),50,2020
+Sheku Kanneh-Mason,classical,"Le carnaval des animaux, R. 125: XIII. The Swan (Arr. Hodge for Cello, Harp & Ensemble)",49,2017
+Sheku Kanneh-Mason,classical,Myfanwy (Arr. Kanneh-Mason for Solo Cello),46,2022
+Sheku Kanneh-Mason,classical,"Elégie in C Minor, Op. 24 (Arr. Parkin for Cello Ensemble)",48,2020
+Sheku Kanneh-Mason,classical,"Savior of the Nations, Come, BWV 659 (Arr. Kanneh-Mason for 4 Cellos)",47,2022
+Sheku Kanneh-Mason,classical,Hallelujah (Arr. Hodge for Cello & Strings),46,2018
+Yunchan Lim,classical,"12 Etudes, Op. 10: No. 3 in E Major ""Tristesse""",46,2024
+Yunchan Lim,classical,"12 Etudes, Op. 10: No. 6 in E-Flat Minor ""Lament""",35,2024
+Yunchan Lim,classical,"The Seasons, Op. 37a: VI. June. Barcarolle. Andante cantabile",45,2025
+Yunchan Lim,classical,"12 Etudes, Op. 10: No. 12 in C Minor ""Revolutionary""",35,2024
+Yunchan Lim,classical,"Piano Concerto No. 3 in D Minor, Op. 30: III. Finale. Alla breve (Opening) - Live from the 2022 Cliburn Competition",40,2025
+Yunchan Lim,classical,"12 Etudes, Op. 25: No. 7 in C-Sharp Minor ""Cello""",40,2024
+Yunchan Lim,classical,"12 Etudes, Op. 25: No. 1 in A-Flat Major ""Aeolian Harp""",38,2024
+Yunchan Lim,classical,"Piano Concerto No. 3 in D Minor, Op. 30: I. Allegro ma non tanto - Live from the 2022 Cliburn Competition",37,2025
+Yunchan Lim,classical,"Goldberg Variations, BWV 988: Aria - Live at Carnegie Hall, New York, 2025",36,2025
+Yunchan Lim,classical,"Piano Concerto No. 3 in D Minor, Op. 30: III. Finale. Alla breve - Live from the 2022 Cliburn Competition",36,2025
+Klaus Mäkelä,classical,"The Firebird, K10: X. Round Dance of the Princesses",29,2023
+Klaus Mäkelä,classical,"Water Drops, JS 216",37,2024
+Klaus Mäkelä,classical,"Symphonie fantastique, H. 48: IV. Marche au supplice",16,2025
+Klaus Mäkelä,classical,"Violin Concerto in D Minor, Op. 47: I. Allegro moderato",26,2024
+Klaus Mäkelä,classical,"Symphony No. 8 in E-Flat Major ""Symphony of a Thousand"", Pt. 2: II. Più mosso. Allegro moderato - Live at Concertgebouw, Amsterdam, May 2025",24,2025
+Klaus Mäkelä,classical,"Symphonie fantastique, H. 48: II. Un bal. Valse",24,2025
+Klaus Mäkelä,classical,"Symphony No. 8 in E-Flat Major ""Symphony of a Thousand"", Pt. 1: I. Veni, creator spiritus - Live at Concertgebouw, Amsterdam, May 2025",22,2025
+Klaus Mäkelä,classical,"Violin Concerto in D Minor, Op. 47: III. Allegro, ma non tanto",9,2024
+Klaus Mäkelä,classical,"Violin Concerto in D Minor, Op. 47: II. Adagio di molto",22,2024
+Klaus Mäkelä,classical,"Symphony No. 8 in E-Flat Major ""Symphony of a Thousand"", Pt. 1: II. Imple superna gratia - Live at Concertgebouw, Amsterdam, May 2025",20,2025
+Ashkenazy,classical,"Vivaldi: The Four Seasons, Violin Concerto in F Minor, Op. 8 No. 4, RV 297 ""Winter"": I. Allegro non molto",62,1985
+Ashkenazy,classical,Theme From Schindler's List,62,1993
+Ashkenazy,classical,"Paganini: 24 Caprices, Op. 1: No. 24 in A Minor",62,2000
+Ashkenazy,classical,"Vivaldi: The Four Seasons, Violin Concerto in E Major, Op. 8 No. 1, RV 269 ""Spring"": I. Allegro",60,1985
+Ashkenazy,classical,"Paganini: 24 Caprices, Op. 1: No. 2 in B Minor",55,2000
+Ashkenazy,classical,"Vivaldi: The Four Seasons, Violin Concerto in F Minor, Op. 8 No. 4, RV 297 ""Winter"": II. Largo",56,1985
+Ashkenazy,classical,"8 Humoresques, Op. 101, B. 187: No. 7, Poco lento e grazioso (Transcribed by Oscar Morawetz for Violin, Cello & Orchestra)",54,1982
+Ashkenazy,classical,"Vivaldi: The Four Seasons, Violin Concerto in G Minor, Op. 8 No. 2, RV 315 ""Summer"": III. Presto",55,1985
+Ashkenazy,classical,"Vivaldi: The Four Seasons, Violin Concerto in E Major, Op. 8 No. 1, RV 269 ""Spring"": III. Allegro",53,1985
+Ashkenazy,classical,"Vivaldi: The Four Seasons, Violin Concerto in E Major, Op. 8 No. 1, RV 269 ""Spring"": II. Largo e pianissimo sempre",52,1985
+Solti,classical,Elata,36,2024
+Solti,classical,Kronos,31,2024
+Solti,classical,Kanenas,26,2024
+Solti,classical,Parathyra,26,2024
+Solti,classical,Gia Ligo,20,2024
+Solti,classical,Einai Lathos Olo,20,2024
+Solti,classical,10,20,2025
+Solti,classical,De Tha Ta Poume,18,2024
+Solti,classical,Yoko,18,2024
+Solti,classical,Autoi Misoune Tin Alitheia,18,2024
+Pavarotti,classical,"Turandot, Act III: Nessun dorma!",58,1973
+Pavarotti,classical,"Rigoletto, Act III: La donna è mobile",59,2010
+Pavarotti,classical,Caruso,59,1988
+Pavarotti,classical,My Way,59,1994
+Pavarotti,classical,Se Bastasse Una Canzone,42,1998
+Pavarotti,classical,'O sole mio (Arr. Chiaramello for Tenor & Orchestra),56,1979
+Pavarotti,classical,"La traviata, Act I: Libiamo ne' lieti calici ""Brindisi""",52,1980
+Pavarotti,classical,"Baby Can I Hold You - Live in Modena, 2000",50,2024
+Pavarotti,classical,"Ave Maria, D. 839 (Orch. Gamley)",24,1984
+Pavarotti,classical,"I Hate You Then I Love You - Live in Modena, 1998",49,2008
+Jonny Greenwood,classical,House of Woodcock,58,2018
+Jonny Greenwood,classical,One Battle After Another,52,2025
+Jonny Greenwood,classical,No Other Love (feat. Jo Stafford),37,2012
+Jonny Greenwood,classical,Magic Works,46,2005
+Jonny Greenwood,classical,Alma,45,2018
+Jonny Greenwood,classical,For the Hungry Boy,45,2018
+Jonny Greenwood,classical,Trust Device,44,2025
+Jonny Greenwood,classical,Baby Charlene,44,2025
+Jonny Greenwood,classical,The French 75,43,2025
+Jonny Greenwood,classical,Perfidia Beverly Hills,43,2025
+Fauré Ensemble,classical,Once In Royal David's City,41,2015
+Fauré Ensemble,classical,Away in a Manger,47,2013
+Fauré Ensemble,classical,See Amid the Winter's Snow,45,2013
+Fauré Ensemble,classical,Coventry Carol,49,2013
+Fauré Ensemble,classical,Hark! The Herald Angels Sing,14,2020
+Fauré Ensemble,classical,"O Come, All Ye Faithful",15,2020
+Fauré Ensemble,classical,Christ Was Born on Christmas Day,39,2013
+Fauré Ensemble,classical,The First Nowell,41,2013
+Fauré Ensemble,classical,"God Rest Ye Merry, Gentlemen",48,2013
+Fauré Ensemble,classical,The Holly and the Ivy (Arr. Walford Davies),26,2023
+Yuja Wang,classical,"Orfeo ed Euridice, Wq. 30: Dance of the Blessed Spirits ""Melody"" (Arr. Sgambati for Piano)",60,2012
+Yuja Wang,classical,"Prelude in G Minor, Op. 23, No. 5 - Live at Philharmonie, Berlin / 2018",54,2018
+Yuja Wang,classical,"Piano Concerto No. 2 in C Minor, Op. 18: II. Adagio sostenuto",48,2023
+Yuja Wang,classical,Études: No. 6,44,2024
+Yuja Wang,classical,"Piano Concerto No. 2 in C Minor, Op. 18: I. Moderato",45,2023
+Yuja Wang,classical,"Wiegenlied, Op. 49, No. 4",39,2014
+Yuja Wang,classical,"Piano Concerto No. 2 in C Minor, Op. 18: III. Allegro scherzando",40,2023
+Yuja Wang,classical,"Chopin: Cello Sonata in G Minor, Op. 65: III. Largo",40,2019
+Yuja Wang,classical,"Rhapsody on a Theme of Paganini, Op. 43: Var. 18. Andante cantabile",39,2023
+Yuja Wang,classical,"24 Preludes, Op. 11: No. 11 in B Major. Allegro assai",39,2012
+J.S. Bach,classical,Bach Party,4,2023
+J.S. Bach,classical,Quacky Bach,2,2023
+J.S. Bach,classical,"Nun Komm, der Heiden Heiland (BWV 599)",1,2025
+Jacob Collier,jazz,Never Gonna Be Alone (feat. Lizzy McAlpine & John Mayer),59,2024
+Jacob Collier,jazz,I'll Be Home For Christmas,58,2024
+Jacob Collier,jazz,Heaven (Butterflies),55,2025
+Jacob Collier,jazz,❤️,55,2021
+Jacob Collier,jazz,RESTORE THE FEELING (feat. Sean Leon & Jacob Collier),54,2019
+Jacob Collier,jazz,Time Alone With You (feat. Daniel Caesar),51,2020
+Jacob Collier,jazz,Bridge Over Troubled Water (feat. John Legend & Tori Kelly),46,2024
+Jacob Collier,jazz,Little Blue (feat. Brandi Carlile),51,2024
+Jacob Collier,jazz,I Know (A Little),50,2025
+Jacob Collier,jazz,All I Need (with Mahalia & Ty Dolla $ign),51,2020
+Snarky Puppy,jazz,Lingus,48,2014
+Snarky Puppy,jazz,Shofukan,47,2014
+Snarky Puppy,jazz,Waves Upon Waves,45,2025
+Snarky Puppy,jazz,It Stays With You,46,2025
+Snarky Puppy,jazz,What About Me?,46,2014
+Snarky Puppy,jazz,As You Are But Not As You Were,46,2025
+Snarky Puppy,jazz,Chimera,43,2025
+Snarky Puppy,jazz,Between Worlds,43,2025
+Snarky Puppy,jazz,Recurrent,43,2025
+Snarky Puppy,jazz,Tarova,41,2016
+Kamasi Washington,jazz,From My Heart And My Soul (feat. Tarriona Tank Ball & Phoelix),57,2020
+Kamasi Washington,jazz,Freeze Tag (feat. Phoelix),55,2020
+Kamasi Washington,jazz,Song For Fraser,51,2020
+Kamasi Washington,jazz,No Excuses (feat. Ludwig Göransson & Kamasi Washington),48,2024
+Kamasi Washington,jazz,Sleepless Nights (feat. Phoelix),48,2020
+Kamasi Washington,jazz,From My Heart and My Soul (feat. Phoelix),48,2020
+Kamasi Washington,jazz,First Responders,46,2020
+Kamasi Washington,jazz,Love You Bad (feat. Malaya & Phoelix),46,2020
+Kamasi Washington,jazz,Street Fighter Mas,42,2018
+Kamasi Washington,jazz,Clair de Lune,44,2015
+Brad Mehldau,jazz,Blackbird,50,1997
+Brad Mehldau,jazz,Exit Music,47,1998
+Brad Mehldau,jazz,Alfie,45,2005
+Brad Mehldau,jazz,Better Be Quiet Now,42,2025
+Brad Mehldau,jazz,Between the Bars,42,2025
+Brad Mehldau,jazz,I Fall in Love Too Easily,42,1997
+Brad Mehldau,jazz,When It Rains,41,2002
+Brad Mehldau,jazz,Tomorrow Tomorrow (feat. Daniel Rossen),38,2025
+Brad Mehldau,jazz,Tabhair dom do Lámh,39,2017
+Brad Mehldau,jazz,"Bewitched, Bothered and Bewildered",39,1998
+GoGo Penguin,jazz,Hopopono,55,2014
+GoGo Penguin,jazz,Murmuration,49,2014
+GoGo Penguin,jazz,Branches Break,44,2016
+GoGo Penguin,jazz,Don’t Go,43,2020
+GoGo Penguin,jazz,Forgive the Damages (feat. Daudi Matsiko),43,2025
+GoGo Penguin,jazz,GBFISYSIH,39,2016
+GoGo Penguin,jazz,Fallowfield Loops,41,2025
+GoGo Penguin,jazz,Prayer,41,2018
+GoGo Penguin,jazz,Umbra,40,2025
+GoGo Penguin,jazz,What We Are and What We Are Meant to Be,39,2025
+Mammal Hands,jazz,Being Here,48,2017
+Mammal Hands,jazz,Kandaiki,47,2014
+Mammal Hands,jazz,Alia's Abandon,41,2025
+Mammal Hands,jazz,Boreal Forest,40,2017
+Mammal Hands,jazz,Chaser,38,2020
+Mammal Hands,jazz,Quiet Fire,38,2016
+Mammal Hands,jazz,Refuge,38,2018
+Mammal Hands,jazz,Black Sails,38,2017
+Mammal Hands,jazz,In the Treetops,37,2016
+Mammal Hands,jazz,Wringer,35,2017
+Nubya Garcia,jazz,Together Is A Beautiful Place To Be - Nala Sinephro Remix,43,2021
+Nubya Garcia,jazz,Dentro Ali,42,2025
+Nubya Garcia,jazz,Set It Free,37,2024
+Nubya Garcia,jazz,La cumbia me está llamando [Feat. La Perla] - Kaidi Tatham Remix,36,2021
+Nubya Garcia,jazz,The Message Continues,36,2020
+Nubya Garcia,jazz,Water's Path,34,2024
+Nubya Garcia,jazz,Dawn [ft. esperanza spalding],34,2024
+Nubya Garcia,jazz,Lost Kingdoms,33,2017
+Nubya Garcia,jazz,Once,30,2018
+Nubya Garcia,jazz,Triumphance,29,2024
+Esperanza Spalding,jazz,I Know You Know,55,2008
+Esperanza Spalding,jazz,Precious,46,2008
+Esperanza Spalding,jazz,Fall In,44,2008
+Esperanza Spalding,jazz,Ponta De Areia,43,2008
+Esperanza Spalding,jazz,Saudade Dos Aviões Da Panair (Conversando No Bar),41,2024
+Esperanza Spalding,jazz,I Can't Help It,36,2012
+Esperanza Spalding,jazz,Why We Speak [Feat. Q-Tip & Esperanza Spalding],38,2022
+Esperanza Spalding,jazz,Black Gold,32,2012
+Esperanza Spalding,jazz,Espera,37,2008
+Esperanza Spalding,jazz,Touch in Mine (fingers),34,2019
+Robert Glasper,jazz,Afro Blue,57,2012
+Robert Glasper,jazz,From My Heart And My Soul (feat. Tarriona Tank Ball & Phoelix),57,2020
+Robert Glasper,jazz,Freeze Tag (feat. Phoelix),55,2020
+Robert Glasper,jazz,Melt Session #1 [Feat. Robert Glasper],54,2022
+Robert Glasper,jazz,Over [Feat. Yebba],52,2022
+Robert Glasper,jazz,Joy To The World (feat. Alex Isley),51,2024
+Robert Glasper,jazz,Afro Blue - 9th Wonder's Blue Light Basement Remix,48,2022
+Robert Glasper,jazz,Ah Yeah,50,2012
+Robert Glasper,jazz,Better Than I Imagined [Feat. H.E.R. & Meshell Ndegeocello],47,2022
+Robert Glasper,jazz,Over (feat. Yebba),49,2025
+Vijay Iyer,jazz,Sanctuary,31,2025
+Vijay Iyer,jazz,Saaqi (feat. Vijay Iyer),30,2024
+Vijay Iyer,jazz,Human Nature (Trio Extension),26,2012
+Vijay Iyer,jazz,Crossing,27,2025
+Vijay Iyer,jazz,New Day,24,2025
+Vijay Iyer,jazz,Sajni,24,2023
+Vijay Iyer,jazz,Compassion,21,2024
+Vijay Iyer,jazz,Human Nature,22,2010
+Vijay Iyer,jazz,To Remain/To Return,21,2023
+Vijay Iyer,jazz,Shadow Forces,21,2023
+Tigran Hamasyan,jazz,Tsirani Tsar,44,2016
+Tigran Hamasyan,jazz,Dardahan,42,2025
+Tigran Hamasyan,jazz,Years Passing - For Akram,41,2025
+Tigran Hamasyan,jazz,Entertain Me,41,2015
+Tigran Hamasyan,jazz,Lilac,40,2015
+Tigran Hamasyan,jazz,War Time Poem,38,2025
+Tigran Hamasyan,jazz,Poem,37,2013
+Tigran Hamasyan,jazz,The Boatman (Prelude),36,2019
+Tigran Hamasyan,jazz,The Grid,36,2015
+Tigran Hamasyan,jazz,The Curse - Blood Of An Innocent Is Spilled,35,2024
+Christian Scott aTunde Adjuah,jazz,Isadora,39,2010
+Christian Scott aTunde Adjuah,jazz,No Love,36,2017
+Christian Scott aTunde Adjuah,jazz,So What,34,2006
+Christian Scott aTunde Adjuah,jazz,The Eraser,30,2010
+Christian Scott aTunde Adjuah,jazz,Phases,31,2017
+Christian Scott aTunde Adjuah,jazz,Our Lady of New Orleans (Herreast Harrison),28,2017
+Christian Scott aTunde Adjuah,jazz,Ruler Rebel [X. aTunde Adjuah Remix],27,2017
+Christian Scott aTunde Adjuah,jazz,The Emancipation Procrastination,26,2017
+Christian Scott aTunde Adjuah,jazz,Diaspora,26,2017
+Christian Scott aTunde Adjuah,jazz,Completely,26,2017
+Ambrose Akinmusire,jazz,Roy,37,2020
+Ambrose Akinmusire,jazz,Owl Song 1 (feat. Bill Frisell & Herlin Riley),34,2023
+Ambrose Akinmusire,jazz,Yesterday's Price,22,2023
+Ambrose Akinmusire,jazz,Where The River Goes,24,2018
+Ambrose Akinmusire,jazz,muffled screams,25,2025
+Ambrose Akinmusire,jazz,Marie Christie,22,2014
+Ambrose Akinmusire,jazz,Ending Music,18,2016
+Ambrose Akinmusire,jazz,Bloomed (the ongoing processional of nighas in hoodies),21,2025
+Ambrose Akinmusire,jazz,Vartha,21,2014
+Ambrose Akinmusire,jazz,Assembly Of All Beings,20,2025
+Cécile McLorin Salvant,jazz,Le Mal de Vivre,49,2015
+Cécile McLorin Salvant,jazz,I Didn't Know What Time It Was,46,2013
+Cécile McLorin Salvant,jazz,Moon Song,44,2022
+Cécile McLorin Salvant,jazz,One Step Ahead,43,2018
+Cécile McLorin Salvant,jazz,Monday,39,2015
+Cécile McLorin Salvant,jazz,Take this stone (feat. June McDoom & Kate Davis),38,2025
+Cécile McLorin Salvant,jazz,Wuthering Heights,37,2022
+Cécile McLorin Salvant,jazz,Siete Lágrimas,21,2023
+Cécile McLorin Salvant,jazz,Wuthering Heights - Kassa Overall Remix,35,2023
+Cécile McLorin Salvant,jazz,Ghost Song,32,2022
+Gregory Porter,jazz,Hey Laura,61,2013
+Gregory Porter,jazz,Everything’s Not Lost,53,2024
+Gregory Porter,jazz,Christmas Waltz,60,2024
+Gregory Porter,jazz,Christmas Wish,50,2024
+Gregory Porter,jazz,L-O-V-E,57,2017
+Gregory Porter,jazz,Liquid Spirit - Claptone Remix,58,2015
+Gregory Porter,jazz,Christmas Will Really Be Christmas,58,2024
+Gregory Porter,jazz,Cradle in Bethlehem,55,2024
+Gregory Porter,jazz,The Christmas Song,54,2017
+Gregory Porter,jazz,Smile,53,2017
+Melody Gardot,jazz,Morning Sun,64,2015
+Melody Gardot,jazz,If You Love Me,63,2020
+Melody Gardot,jazz,Baby I'm A Fool,48,2009
+Melody Gardot,jazz,Your Heart Is As Black As Night,46,2009
+Melody Gardot,jazz,Les Etoiles,54,2009
+Melody Gardot,jazz,From Paris With Love - Single Version,58,2020
+Melody Gardot,jazz,Worrisome Heart,60,2006
+Melody Gardot,jazz,Preacherman,56,2015
+Melody Gardot,jazz,J'attendrai,34,2017
+Melody Gardot,jazz,Sunset In The Blue,51,2020
+José James,jazz,Christmas in New York,60,2021
+José James,jazz,Trouble,53,2013
+José James,jazz,Ain't No Sunshine,49,2018
+José James,jazz,Lovely Day,48,2018
+José James,jazz,Just The Two of Us,48,2018
+José James,jazz,They Can’t Take That Away From Me,43,2017
+José James,jazz,Rock With You,42,2025
+José James,jazz,Come To My Door,42,2013
+José James,jazz,Just the Way You Are,42,2020
+José James,jazz,The Christmas Waltz,41,2021
+Laura Mvula,jazz,Sing to the Moon,45,2013
+Laura Mvula,jazz,Green Garden,41,2013
+Laura Mvula,jazz,You Work for Me,35,2016
+Laura Mvula,jazz,Got Me,33,2021
+Laura Mvula,jazz,Show Me Love,34,2016
+Laura Mvula,jazz,She,30,2013
+Laura Mvula,jazz,Church Girl,26,2021
+Laura Mvula,jazz,Phenomenal Woman,28,2016
+Laura Mvula,jazz,Pink Noise,28,2021
+Laura Mvula,jazz,Overcome (feat. Nile Rodgers),25,2016
+Jordan Rakei,jazz,Ottolenghi,65,2019
+Jordan Rakei,jazz,What It Gave Me,64,2025
+Jordan Rakei,jazz,Borderline,56,2020
+Jordan Rakei,jazz,Shadows,55,2022
+Jordan Rakei,jazz,Midnight Mischief (Tom Misch Remix),55,2016
+Jordan Rakei,jazz,Family,50,2021
+Jordan Rakei,jazz,Trust,51,2024
+Jordan Rakei,jazz,Best Part - BBC Maida Vale Session,50,2020
+Jordan Rakei,jazz,Add the Bassline,50,2014
+Jordan Rakei,jazz,Celebrate,39,2025
+Victor Ray,jazz,You & I,63,2025
+Victor Ray,jazz,Comfortable,63,2024
+Victor Ray,jazz,Stay For A While,62,2023
+Victor Ray,jazz,Space,61,2025
+Victor Ray,jazz,It Only Cost Everything,59,2023
+Victor Ray,jazz,Falling Into Place (ft. Debbie),55,2024
+Victor Ray,jazz,World At My Feet,55,2025
+Victor Ray,jazz,Halfway There,54,2024
+Victor Ray,jazz,Hollow,53,2022
+Victor Ray,jazz,Hearts Break and People Change,53,2025
+Tom Misch,jazz,It Runs Through Me (feat. De La Soul),69,2018
+Tom Misch,jazz,Tidal Wave,64,2020
+Tom Misch,jazz,Red Moon,62,2025
+Tom Misch,jazz,Losing My Way,61,2019
+Tom Misch,jazz,Disco Yes,60,2018
+Tom Misch,jazz,Movie,60,2018
+Tom Misch,jazz,Nightrider,60,2020
+Tom Misch,jazz,Beautiful Escape,58,2015
+Tom Misch,jazz,Money (with Tom Misch),57,2019
+Tom Misch,jazz,What Kinda Music,56,2020
+The Teskey Brothers,jazz,Forever You and Me,70,2018
+The Teskey Brothers,jazz,Pain And Misery,64,2018
+The Teskey Brothers,jazz,So Caught Up,62,2019
+The Teskey Brothers,jazz,Crying Shame,60,2018
+The Teskey Brothers,jazz,Rain,55,2019
+The Teskey Brothers,jazz,Take My Heart,55,2023
+The Teskey Brothers,jazz,Hold Me,53,2019
+The Teskey Brothers,jazz,I Get Up,52,2018
+The Teskey Brothers,jazz,Carry You,52,2019
+The Teskey Brothers,jazz,Oceans Of Emotions,51,2023
+Hiromi Uehara,jazz,"Beethoven's Piano Sonata No. 8, Pathetique",50,2011
+Hiromi Uehara,jazz,Another autumn,51,2023
+Hiromi Uehara,jazz,Blackbird,45,2019
+Hiromi Uehara,jazz,Seeker,44,2014
+Hiromi Uehara,jazz,N.E.W.,43,2023
+Hiromi Uehara,jazz,FIRST NOTE,42,2023
+Hiromi Uehara,jazz,Green Tea Farm,41,2004
+Hiromi Uehara,jazz,BLUE GIANT,38,2023
+Hiromi Uehara,jazz,Haze,36,2011
+Hiromi Uehara,jazz,WE WILL,38,2023
+Shai Maestro,jazz,Seattle,39,2008
+Shai Maestro,jazz,Eleven Wives,38,2008
+Shai Maestro,jazz,Angelo,37,2012
+Shai Maestro,jazz,Moon of Knives,37,2025
+Shai Maestro,jazz,Nature Boy,36,2025
+Shai Maestro,jazz,Aba (For Gil Maestro),35,2025
+Shai Maestro,jazz,The Time Bender,35,2025
+Shai Maestro,jazz,Lo Baiom Velo Balyla,33,2008
+Shai Maestro,jazz,Chutzpan,33,2008
+Shai Maestro,jazz,Gloria,32,2025
+Jeff Goldblum,jazz,Wonderful,76,2025
+Jeff Goldblum,jazz,A Sentimental Man,65,2024
+Jeff Goldblum,jazz,A Sentimental Man - Commentary,22,2024
+Jeff Goldblum,jazz,Elven Wood Cutting Song in the Key of Jeff Goldblum,10,2021
+Jeff Goldblum,jazz,Lsd,6,2022
+Jeff Goldblum,jazz,Meet the Captive,5,2022
